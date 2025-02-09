@@ -1,0 +1,1 @@
+proc goodproc {a b} {expr { [string is double -strict $a] && [string is double -strict $b] ? max($a,$b): {error "Not a number"}}}
